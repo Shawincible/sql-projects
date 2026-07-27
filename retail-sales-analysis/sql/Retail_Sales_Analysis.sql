@@ -61,7 +61,7 @@ gender IS NULL
 OR
 category IS NULL
 OR
-quantiy IS NULL
+quantity IS NULL
 OR
 price_per_unit IS NULL
 OR
@@ -132,7 +132,7 @@ FROM retail_sales
 GROUP BY category, gender
 ORDER BY category;
 
-7. Write a SQL query to calculate the average sale for each month. Find out best selling month in each year.
+-- 7. Write a SQL query to calculate the average sale for each month. Find out best selling month in each year.
 
 SELECT 
 	year, month, avg_sales 
