@@ -1,0 +1,301 @@
+restaurant_id,restaurant_name,city,opening_hours
+1,Burger Point 1,Pune,11:00-01:00
+2,Biryani Corner 2,Kolkata,24 Hours
+3,Royal Palace 3,Ahmedabad,11:00-01:00
+4,Food Palace 4,Kolkata,10:00-23:00
+5,Urban Corner 5,Ahmedabad,10:00-23:00
+6,Urban Corner 6,Kolkata,11:00-01:00
+7,Burger Hub 7,Delhi,24 Hours
+8,Spice Kitchen 8,Delhi,24 Hours
+9,Cafe Point 9,Mumbai,09:00-22:00
+10,Food Corner 10,Pune,09:00-22:00
+11,Cafe Hub 11,Kolkata,24 Hours
+12,Cafe Express 12,Bangalore,10:00-23:00
+13,Pizza Factory 13,Bangalore,10:00-23:00
+14,Burger Express 14,Hyderabad,09:00-22:00
+15,Cafe Corner 15,Delhi,09:00-22:00
+16,Curry Corner 16,Bangalore,10:00-23:00
+17,Urban Express 17,Kolkata,11:00-01:00
+18,Biryani Point 18,Hyderabad,09:00-22:00
+19,Urban Kitchen 19,Chennai,11:00-01:00
+20,Curry Express 20,Hyderabad,10:00-23:00
+21,Pizza Point 21,Bangalore,11:00-01:00
+22,Royal Point 22,Mumbai,09:00-22:00
+23,Burger Express 23,Pune,09:00-22:00
+24,Burger Express 24,Chennai,24 Hours
+25,Biryani Factory 25,Hyderabad,11:00-01:00
+26,Pizza Factory 26,Bangalore,24 Hours
+27,Urban Express 27,Mumbai,24 Hours
+28,Taste Corner 28,Pune,24 Hours
+29,Curry Hub 29,Chennai,10:00-23:00
+30,Food Kitchen 30,Kolkata,11:00-01:00
+31,Urban House 31,Ahmedabad,11:00-01:00
+32,Curry Corner 32,Chennai,10:00-23:00
+33,Taste Factory 33,Hyderabad,10:00-23:00
+34,Taste Express 34,Hyderabad,10:00-23:00
+35,Taste Corner 35,Pune,10:00-23:00
+36,Urban Kitchen 36,Mumbai,24 Hours
+37,Cafe Hub 37,Bangalore,24 Hours
+38,Curry Palace 38,Ahmedabad,11:00-01:00
+39,Pizza House 39,Chennai,24 Hours
+40,Taste House 40,Bangalore,24 Hours
+41,Pizza Hub 41,Pune,24 Hours
+42,Royal Factory 42,Mumbai,24 Hours
+43,Curry Hub 43,Bangalore,10:00-23:00
+44,Biryani Kitchen 44,Pune,11:00-01:00
+45,Cafe Express 45,Delhi,11:00-01:00
+46,Taste Express 46,Ahmedabad,11:00-01:00
+47,Curry House 47,Ahmedabad,24 Hours
+48,Taste Point 48,Pune,11:00-01:00
+49,Biryani Express 49,Ahmedabad,10:00-23:00
+50,Cafe House 50,Hyderabad,09:00-22:00
+51,Food Corner 51,Kolkata,24 Hours
+52,Taste House 52,Delhi,24 Hours
+53,Spice House 53,Kolkata,24 Hours
+54,Royal Palace 54,Ahmedabad,11:00-01:00
+55,Food Hub 55,Kolkata,09:00-22:00
+56,Royal Hub 56,Hyderabad,11:00-01:00
+57,Pizza Kitchen 57,Ahmedabad,11:00-01:00
+58,Food Palace 58,Pune,11:00-01:00
+59,Curry Hub 59,Kolkata,09:00-22:00
+60,Curry Corner 60,Delhi,11:00-01:00
+61,Curry Palace 61,Ahmedabad,24 Hours
+62,Urban Point 62,Chennai,24 Hours
+63,Royal House 63,Pune,24 Hours
+64,Cafe Point 64,Mumbai,09:00-22:00
+65,Royal Palace 65,Hyderabad,11:00-01:00
+66,Curry Express 66,Chennai,24 Hours
+67,Food Factory 67,Pune,24 Hours
+68,Biryani House 68,Delhi,09:00-22:00
+69,Royal Corner 69,Chennai,09:00-22:00
+70,Taste House 70,Kolkata,09:00-22:00
+71,Urban Kitchen 71,Ahmedabad,09:00-22:00
+72,Spice Point 72,Mumbai,09:00-22:00
+73,Food House 73,Mumbai,24 Hours
+74,Food Corner 74,Hyderabad,11:00-01:00
+75,Pizza House 75,Delhi,10:00-23:00
+76,Spice Hub 76,Pune,11:00-01:00
+77,Pizza Factory 77,Chennai,24 Hours
+78,Royal House 78,Ahmedabad,24 Hours
+79,Burger Express 79,Pune,24 Hours
+80,Burger Corner 80,Mumbai,24 Hours
+81,Food Palace 81,Kolkata,11:00-01:00
+82,Royal Express 82,Bangalore,09:00-22:00
+83,Burger House 83,Pune,11:00-01:00
+84,Pizza Hub 84,Ahmedabad,24 Hours
+85,Food Hub 85,Kolkata,11:00-01:00
+86,Cafe Corner 86,Bangalore,11:00-01:00
+87,Taste Point 87,Kolkata,24 Hours
+88,Taste House 88,Kolkata,24 Hours
+89,Taste Express 89,Mumbai,24 Hours
+90,Taste Express 90,Chennai,11:00-01:00
+91,Biryani Corner 91,Mumbai,10:00-23:00
+92,Royal Express 92,Mumbai,24 Hours
+93,Cafe Factory 93,Chennai,24 Hours
+94,Taste Palace 94,Bangalore,10:00-23:00
+95,Spice Hub 95,Delhi,09:00-22:00
+96,Food Express 96,Delhi,24 Hours
+97,Spice Corner 97,Mumbai,10:00-23:00
+98,Spice Factory 98,Hyderabad,11:00-01:00
+99,Biryani Express 99,Ahmedabad,11:00-01:00
+100,Pizza Hub 100,Pune,09:00-22:00
+101,Royal Hub 101,Chennai,24 Hours
+102,Urban Factory 102,Delhi,10:00-23:00
+103,Food Point 103,Bangalore,09:00-22:00
+104,Taste Point 104,Ahmedabad,10:00-23:00
+105,Spice Corner 105,Ahmedabad,09:00-22:00
+106,Burger Corner 106,Ahmedabad,24 Hours
+107,Food Palace 107,Delhi,09:00-22:00
+108,Burger Kitchen 108,Chennai,24 Hours
+109,Food Corner 109,Pune,09:00-22:00
+110,Taste Kitchen 110,Hyderabad,24 Hours
+111,Curry Hub 111,Delhi,11:00-01:00
+112,Cafe Kitchen 112,Kolkata,10:00-23:00
+113,Spice Hub 113,Ahmedabad,10:00-23:00
+114,Curry Kitchen 114,Hyderabad,10:00-23:00
+115,Pizza Kitchen 115,Pune,09:00-22:00
+116,Spice Palace 116,Delhi,09:00-22:00
+117,Royal Factory 117,Hyderabad,11:00-01:00
+118,Burger Palace 118,Ahmedabad,10:00-23:00
+119,Spice Point 119,Pune,10:00-23:00
+120,Food Hub 120,Ahmedabad,24 Hours
+121,Burger Express 121,Ahmedabad,10:00-23:00
+122,Cafe House 122,Pune,11:00-01:00
+123,Pizza Express 123,Delhi,09:00-22:00
+124,Burger House 124,Ahmedabad,11:00-01:00
+125,Food Palace 125,Ahmedabad,09:00-22:00
+126,Burger Point 126,Delhi,09:00-22:00
+127,Cafe Palace 127,Hyderabad,11:00-01:00
+128,Urban Point 128,Hyderabad,24 Hours
+129,Burger House 129,Chennai,11:00-01:00
+130,Biryani Palace 130,Mumbai,09:00-22:00
+131,Burger Kitchen 131,Bangalore,10:00-23:00
+132,Royal Hub 132,Hyderabad,09:00-22:00
+133,Pizza Corner 133,Mumbai,09:00-22:00
+134,Cafe Point 134,Ahmedabad,11:00-01:00
+135,Spice Palace 135,Hyderabad,09:00-22:00
+136,Spice Corner 136,Ahmedabad,09:00-22:00
+137,Pizza Hub 137,Pune,24 Hours
+138,Curry Hub 138,Chennai,09:00-22:00
+139,Urban Express 139,Mumbai,10:00-23:00
+140,Burger Kitchen 140,Mumbai,10:00-23:00
+141,Burger Point 141,Hyderabad,10:00-23:00
+142,Burger Corner 142,Delhi,24 Hours
+143,Urban Palace 143,Ahmedabad,24 Hours
+144,Urban House 144,Delhi,24 Hours
+145,Burger Palace 145,Delhi,24 Hours
+146,Curry Palace 146,Pune,11:00-01:00
+147,Biryani Point 147,Pune,10:00-23:00
+148,Cafe Corner 148,Kolkata,11:00-01:00
+149,Curry Factory 149,Ahmedabad,24 Hours
+150,Spice Hub 150,Chennai,09:00-22:00
+151,Burger House 151,Chennai,09:00-22:00
+152,Food Corner 152,Hyderabad,11:00-01:00
+153,Spice Express 153,Delhi,09:00-22:00
+154,Spice Factory 154,Pune,10:00-23:00
+155,Royal Express 155,Pune,10:00-23:00
+156,Taste Express 156,Chennai,09:00-22:00
+157,Cafe Point 157,Hyderabad,09:00-22:00
+158,Curry Factory 158,Delhi,24 Hours
+159,Cafe Kitchen 159,Chennai,09:00-22:00
+160,Cafe Point 160,Mumbai,09:00-22:00
+161,Curry Palace 161,Kolkata,24 Hours
+162,Urban Corner 162,Bangalore,24 Hours
+163,Spice Express 163,Bangalore,11:00-01:00
+164,Burger House 164,Pune,10:00-23:00
+165,Royal Hub 165,Kolkata,24 Hours
+166,Cafe Kitchen 166,Hyderabad,24 Hours
+167,Food Point 167,Delhi,10:00-23:00
+168,Curry Kitchen 168,Ahmedabad,09:00-22:00
+169,Burger Point 169,Chennai,09:00-22:00
+170,Biryani Point 170,Delhi,10:00-23:00
+171,Pizza Corner 171,Ahmedabad,24 Hours
+172,Cafe Corner 172,Hyderabad,10:00-23:00
+173,Urban Express 173,Kolkata,11:00-01:00
+174,Cafe Kitchen 174,Mumbai,24 Hours
+175,Biryani Palace 175,Pune,10:00-23:00
+176,Curry Palace 176,Bangalore,11:00-01:00
+177,Royal Palace 177,Ahmedabad,10:00-23:00
+178,Pizza Hub 178,Hyderabad,10:00-23:00
+179,Curry House 179,Mumbai,09:00-22:00
+180,Spice Corner 180,Delhi,11:00-01:00
+181,Spice Palace 181,Mumbai,11:00-01:00
+182,Pizza Factory 182,Bangalore,11:00-01:00
+183,Taste Corner 183,Hyderabad,11:00-01:00
+184,Burger Factory 184,Delhi,09:00-22:00
+185,Biryani Hub 185,Chennai,10:00-23:00
+186,Spice Express 186,Hyderabad,11:00-01:00
+187,Spice Factory 187,Bangalore,09:00-22:00
+188,Biryani Express 188,Pune,09:00-22:00
+189,Spice Express 189,Kolkata,10:00-23:00
+190,Biryani Kitchen 190,Pune,24 Hours
+191,Cafe Kitchen 191,Delhi,10:00-23:00
+192,Burger Factory 192,Bangalore,09:00-22:00
+193,Taste Express 193,Pune,24 Hours
+194,Biryani House 194,Bangalore,11:00-01:00
+195,Curry Palace 195,Chennai,10:00-23:00
+196,Burger Express 196,Bangalore,11:00-01:00
+197,Biryani Hub 197,Chennai,10:00-23:00
+198,Royal Palace 198,Kolkata,10:00-23:00
+199,Urban Point 199,Hyderabad,24 Hours
+200,Taste House 200,Kolkata,11:00-01:00
+201,Cafe Palace 201,Ahmedabad,10:00-23:00
+202,Taste House 202,Hyderabad,10:00-23:00
+203,Food House 203,Kolkata,10:00-23:00
+204,Cafe House 204,Pune,09:00-22:00
+205,Burger Kitchen 205,Delhi,11:00-01:00
+206,Royal Hub 206,Pune,24 Hours
+207,Biryani Express 207,Ahmedabad,11:00-01:00
+208,Royal Corner 208,Mumbai,10:00-23:00
+209,Royal Hub 209,Chennai,10:00-23:00
+210,Cafe Corner 210,Hyderabad,09:00-22:00
+211,Curry Kitchen 211,Ahmedabad,10:00-23:00
+212,Burger Factory 212,Pune,10:00-23:00
+213,Biryani Factory 213,Ahmedabad,10:00-23:00
+214,Royal Corner 214,Hyderabad,09:00-22:00
+215,Biryani Hub 215,Chennai,24 Hours
+216,Taste Corner 216,Hyderabad,09:00-22:00
+217,Royal Factory 217,Ahmedabad,11:00-01:00
+218,Pizza Corner 218,Kolkata,24 Hours
+219,Spice Point 219,Pune,24 Hours
+220,Cafe Hub 220,Mumbai,24 Hours
+221,Pizza Hub 221,Hyderabad,24 Hours
+222,Spice Point 222,Bangalore,10:00-23:00
+223,Food Factory 223,Kolkata,11:00-01:00
+224,Food Factory 224,Delhi,24 Hours
+225,Food Hub 225,Delhi,24 Hours
+226,Pizza Kitchen 226,Mumbai,10:00-23:00
+227,Cafe House 227,Kolkata,24 Hours
+228,Curry Factory 228,Bangalore,10:00-23:00
+229,Pizza Corner 229,Ahmedabad,09:00-22:00
+230,Food Palace 230,Delhi,09:00-22:00
+231,Urban Kitchen 231,Ahmedabad,11:00-01:00
+232,Urban Point 232,Delhi,24 Hours
+233,Burger Point 233,Bangalore,10:00-23:00
+234,Curry House 234,Delhi,10:00-23:00
+235,Royal Hub 235,Kolkata,11:00-01:00
+236,Food Factory 236,Chennai,10:00-23:00
+237,Urban House 237,Hyderabad,09:00-22:00
+238,Cafe Express 238,Bangalore,24 Hours
+239,Pizza Factory 239,Bangalore,24 Hours
+240,Taste Corner 240,Ahmedabad,24 Hours
+241,Biryani Factory 241,Mumbai,09:00-22:00
+242,Taste Express 242,Hyderabad,09:00-22:00
+243,Royal House 243,Bangalore,11:00-01:00
+244,Spice House 244,Bangalore,11:00-01:00
+245,Curry Kitchen 245,Bangalore,09:00-22:00
+246,Biryani House 246,Delhi,11:00-01:00
+247,Cafe House 247,Ahmedabad,11:00-01:00
+248,Spice Kitchen 248,Chennai,11:00-01:00
+249,Curry Point 249,Mumbai,24 Hours
+250,Burger Kitchen 250,Chennai,24 Hours
+251,Royal Kitchen 251,Chennai,11:00-01:00
+252,Burger Point 252,Hyderabad,10:00-23:00
+253,Cafe Hub 253,Mumbai,09:00-22:00
+254,Pizza Express 254,Kolkata,11:00-01:00
+255,Food Palace 255,Delhi,24 Hours
+256,Burger Factory 256,Ahmedabad,10:00-23:00
+257,Cafe Corner 257,Chennai,10:00-23:00
+258,Spice Kitchen 258,Bangalore,24 Hours
+259,Urban Corner 259,Kolkata,24 Hours
+260,Spice Palace 260,Pune,10:00-23:00
+261,Spice Corner 261,Chennai,11:00-01:00
+262,Urban Express 262,Chennai,11:00-01:00
+263,Spice Kitchen 263,Pune,11:00-01:00
+264,Biryani Hub 264,Delhi,10:00-23:00
+265,Curry Palace 265,Ahmedabad,24 Hours
+266,Spice House 266,Ahmedabad,10:00-23:00
+267,Pizza Palace 267,Ahmedabad,24 Hours
+268,Spice Express 268,Pune,09:00-22:00
+269,Taste Palace 269,Pune,09:00-22:00
+270,Royal Express 270,Bangalore,11:00-01:00
+271,Biryani House 271,Kolkata,10:00-23:00
+272,Cafe Kitchen 272,Chennai,11:00-01:00
+273,Spice Express 273,Kolkata,09:00-22:00
+274,Pizza Corner 274,Pune,24 Hours
+275,Food Corner 275,Chennai,10:00-23:00
+276,Urban Palace 276,Bangalore,10:00-23:00
+277,Urban Factory 277,Bangalore,24 Hours
+278,Burger House 278,Hyderabad,11:00-01:00
+279,Pizza Express 279,Pune,10:00-23:00
+280,Urban House 280,Hyderabad,09:00-22:00
+281,Pizza Point 281,Mumbai,09:00-22:00
+282,Food Hub 282,Mumbai,11:00-01:00
+283,Pizza Hub 283,Mumbai,11:00-01:00
+284,Spice Express 284,Hyderabad,11:00-01:00
+285,Taste Corner 285,Chennai,11:00-01:00
+286,Burger Palace 286,Ahmedabad,09:00-22:00
+287,Food House 287,Delhi,11:00-01:00
+288,Urban Hub 288,Mumbai,10:00-23:00
+289,Burger Palace 289,Pune,11:00-01:00
+290,Royal Express 290,Hyderabad,10:00-23:00
+291,Urban Express 291,Pune,24 Hours
+292,Spice House 292,Bangalore,24 Hours
+293,Spice Kitchen 293,Kolkata,09:00-22:00
+294,Urban Point 294,Kolkata,10:00-23:00
+295,Cafe Factory 295,Pune,11:00-01:00
+296,Curry Corner 296,Mumbai,24 Hours
+297,Cafe House 297,Mumbai,24 Hours
+298,Urban Factory 298,Chennai,24 Hours
+299,Pizza Corner 299,Hyderabad,10:00-23:00
+300,Cafe Express 300,Pune,24 Hours
