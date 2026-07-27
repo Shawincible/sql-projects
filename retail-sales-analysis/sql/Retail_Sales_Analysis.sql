@@ -1,7 +1,31 @@
--- SQL Retail Sales Analysis
-CREATE DATABASE sql_project_p2;
+/*
+================================================================================
+Project     : Retail Sales Analysis
+File        : retail_sales_analysis.sql
+Author      : Ankit Shaw
+Database    : PostgreSQL
 
--- CREATE TABLE
+Description:
+Full combined script for the Retail Sales Analysis project — includes
+database setup, schema creation, data cleaning, data exploration, and
+business analysis queries in a single file.
+
+Execution Order:
+Run this file top-to-bottom for the complete project, or run the
+numbered scripts (01-05) individually in order.
+================================================================================
+*/
+
+-- ================================================================================
+-- 01: Database Setup
+-- ================================================================================
+
+CREATE DATABASE retail_sales_db;
+
+-- ================================================================================
+-- 02: Schema Creation
+-- ================================================================================
+
 CREATE TABLE retail_sales 
 			(
 				transactions_id	INT PRIMARY KEY,
@@ -20,8 +44,9 @@ CREATE TABLE retail_sales
 ALTER TABLE retail_sales
 RENAME COLUMN quantiy TO quantity;
 
--- Data Cleaning
--- Check Null Values
+-- ================================================================================
+-- 03: Data Cleaning
+-- ================================================================================
 
 SELECT * FROM retail_sales
 WHERE 
@@ -45,8 +70,6 @@ cogs IS NULL
 OR
 total_sale IS NULL;
 
--- Deleting rows
-
 DELETE FROM retail_sales
 WHERE 
 transactions_id IS NULL
@@ -61,7 +84,7 @@ gender IS NULL
 OR
 category IS NULL
 OR
-quantiy IS NULL
+quantity IS NULL
 OR
 price_per_unit IS NULL
 OR
@@ -69,39 +92,31 @@ cogs IS NULL
 OR
 total_sale IS NULL;
 
-SELECT COUNT(*) AS Number_of_rows FROM retail_sales;
+SELECT COUNT(*) AS number_of_rows FROM retail_sales;
 
--- Data Exploration
+-- ================================================================================
+-- 04: Data Exploration
+-- ================================================================================
 
--- How many Sales we have?
 SELECT COUNT(*) FROM retail_sales;
 
--- How many unique Customers we have?
 SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
 
--- How many unique Categories we have?
 SELECT DISTINCT category FROM retail_sales;
-
--- Data Analysis & Business Key Problems
--- 1. Write a SQL query to retrieve all columns for sales made on '2022-11-05'
--- 2. Write a SQL query to retrieve all transactions where the Category is 'Clothing' and the quantity sold is more than 3 in the month of Nov 2022
--- 3. Write a SQL query to calculate the total sales for each category
--- 4. Write a SQL query to find the average age of customers who purchased items from the Beauty category
--- 5. Write a SQL query to find all transactions where the total_sale is greater than 1000
--- 6. Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.
--- 7. Write a SQL query to calculate the average sale for each month. Find out best selling month in each year.
--- 8. Write a SQL query to find the top 5 customers based on the highest total_sales
--- 9. Write a SQL query to find the number of unique customers who purchased items from each category.
--- 10. Write a SQL query to create each shift and number of orders. (Example Morning <= 12, Afternoon Between 12 & 17, Evening > 17)
 
 SELECT * FROM retail_sales
 LIMIT 5;
--- 1. Write a SQL query to retrieve all columns for sales made on '2022-11-05'
+
+-- ================================================================================
+-- 05: Business Analysis
+-- ================================================================================
+
+-- Use Case 1: Retrieve all columns for sales made on '2022-11-05'
 SELECT * 
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
 
--- 2. Write a SQL query to retrieve all transactions where the Category is 'Clothing' and the quantity sold is more than 3 in the month of Nov 2022
+-- Use Case 2: Clothing category, quantity > 3, Nov 2022
 SELECT * 
 FROM retail_sales
 WHERE 
@@ -111,29 +126,28 @@ AND
 AND 
 	TO_CHAR(sale_date, 'YYYY-MM') = '2022-11';
 
--- 3. Write a SQL query to calculate the total sales for each category
+-- Use Case 3: Total sales for each category
 SELECT category, SUM(total_sale) AS total_sales
 FROM retail_sales
 GROUP BY category;
 
--- 4. Write a SQL query to find the average age of customers who purchased items from the Beauty category
+-- Use Case 4: Average age of customers in Beauty category
 SELECT ROUND(AVG(age), 2) AS average_age_for_beauty
 FROM retail_sales
 WHERE category = 'Beauty';
 
--- 5. Write a SQL query to find all transactions where the total_sale is greater than 1000
+-- Use Case 5: Transactions where total_sale > 1000
 SELECT *
 FROM retail_sales
 WHERE total_sale > 1000;
 
--- 6. Write a SQL query to find the total number of transactions (transaction_id) made by each gender in each category.
+-- Use Case 6: Transactions by gender and category
 SELECT category, gender, COUNT(transactions_id) AS total_transactions
 FROM retail_sales
 GROUP BY category, gender
 ORDER BY category;
 
-7. Write a SQL query to calculate the average sale for each month. Find out best selling month in each year.
-
+-- Use Case 7: Best selling month per year
 SELECT 
 	year, month, avg_sales 
 FROM
@@ -149,21 +163,21 @@ FROM
 ) AS t1
 WHERE rank = 1;
 
--- 8. Write a SQL query to find the top 5 customers based on the highest total_sales
+-- Use Case 8: Top 5 customers by total sales
 SELECT customer_id, SUM(total_sale) AS highest_sales
 FROM retail_sales
 GROUP BY customer_id
 ORDER BY SUM(total_sale) DESC
 LIMIT 5;
 
--- 9. Write a SQL query to find the number of unique customers who purchased items from each category.
+-- Use Case 9: Unique customers per category
 SELECT 
 	category,
 	COUNT(DISTINCT customer_id)
 FROM retail_sales
 GROUP BY category;
 
--- 10. Write a SQL query to create each shift and number of orders. (Example Morning <= 12, Afternoon Between 12 & 17, Evening > 17)
+-- Use Case 10: Orders by shift
 WITH hourly_sales AS
 (
 	SELECT *,
