@@ -79,9 +79,7 @@ Each project folder contains:
 ## 📫 Connect with Me
 
 - **GitHub:** [Shawincible](https://github.com/Shawincible)
-- **LinkedIn:** *[add your LinkedIn URL]*
-- **Portfolio/Resume:** *[add if available]*
-
+- **LinkedIn:** [shawincible](https://www.linkedin.com/in/shawincible/)
 ---
 
 ⭐ *If you find these projects useful, feel free to star this repo!*
